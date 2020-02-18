@@ -1,0 +1,22 @@
+.nav{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+}
+
+section,aside{
+    background-color: blue;
+    width: 50%;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#left {
+    float: left;
+    width: 50%;
+    }
+#right {
+    float:right;
+    width: 40%;
+    }

@@ -58,7 +58,7 @@ aside{
     padding: 20px, 30px, 20px, 30px;
 }
 .views{
-    position: fixed;
+    position: relative;
     margin-right: 20px;
     float: left;
     margin-right: 0px;
@@ -69,5 +69,11 @@ aside{
     margin-top: 15px;
     padding: 10px, 15px, 10px, 15px;
     margin-left: 0px;
-
+}
+#avatar{
+    width: 20px;
+    height: 20px;
+}
+i{
+    padding: 7px;
 }

@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Youtube page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav"></nav>
+    <nav class="nav">
+        <ul>
+            <li>
+                <img id="logo" src="logo.png" style="width:50px;height: 50px;">
+            </li>
+            <li>
+                <form class="search">
+                    <input type="text" placeholder="Search.." name="search" style="width: 200px;">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form> 
+            </li>
+            <li>
+                <i class="fa fa-th" id="grid" aria-hidden="true"></i>
+            </li>
+            <li>
+                <i class="fa fa-bell" aria-hidden="true"></i>   
+            </li>
+            <li>
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </li>
+        </ul>      
+    </nav>
     <main class="main">
-        <section id="left"></section>
+        <section id="left">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Contributing to Open Source Part I: The Easy Way</p>
+            <div class="icons">
+                <p>54,199 views •Feb 27, 2014</p>
+                <i class="fa fa-thumbs-up" aria-hidden="true"> 400</i>
+                <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
+                <i class="fa fa-share" aria-hidden="true">SHARE</i>
+                <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
+            </div>
+        </section>
         <article class="article"></article>
         <aside id="right"></aside>
     </main>

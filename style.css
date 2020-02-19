@@ -1,3 +1,8 @@
+body{
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: sans-serif;
+}
 .nav{
     background-color: white;
     width: auto;
@@ -34,15 +39,17 @@ section{
     background-color: whitesmoke;
     width: 60%;
     height: 400px;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-left: 50px;
+    padding-top: 10px;
 }
 aside{
     background-color: gray;
-    width: 20%;
-    height: 400px;
-    margin-top: 20px;
-    margin-left: 50px;
+    width:auto;
+    height: 170px;
+    margin-top: 35px;
+    margin-left: 30px;
+    padding-top: 60px;
 }
 #left {
     float: left;
@@ -71,9 +78,24 @@ aside{
     margin-left: 0px;
 }
 #avatar{
-    width: 20px;
-    height: 20px;
+    position: relative;
+    width: 20%;
+    float: left;
+}
+.subscribe{
+   width: 20%;
+   height: 100px;
+   float: right;
+   position: relative;
+   margin-bottom: 15px;
+   padding-bottom: 10x;
+   margin-left: 0px;
 }
 i{
     padding: 7px;
+}
+.p{
+    margin-top: 100px;
+    position: absolute;
+    width: 50%;
 }

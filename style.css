@@ -52,3 +52,22 @@ aside{
     float:right;
     width: 40%;
     }
+.view-info{
+    width: auto;
+    height: 55px;
+    padding: 20px, 30px, 20px, 30px;
+}
+.views{
+    position: fixed;
+    margin-right: 20px;
+    float: left;
+    margin-right: 0px;
+}
+.icons{
+    float: right;
+    position: relative;
+    margin-top: 15px;
+    padding: 10px, 15px, 10px, 15px;
+    margin-left: 0px;
+
+}

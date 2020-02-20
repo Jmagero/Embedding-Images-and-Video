@@ -8,19 +8,19 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="nav">
+    <nav class="navbar">
         <ul>
             <li>
-                <img id="logo" src="logo.png" style="width:50px;height: 50px;">
+                <img id="logo" src="/images/logo.png">
             </li>
             <li>
                 <form class="search">
-                    <input type="text" placeholder="Search.." name="search" style="width: 200px;">
+                    <input type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form> 
             </li>
             <li>
-                <i class="fa fa-th" id="grid" aria-hidden="true"></i>
+                <i class="fa fa-th" id="grid-icon" aria-hidden="true"></i>
             </li>
             <li>
                 <i class="fa fa-bell" aria-hidden="true"></i>   
@@ -30,70 +30,80 @@
             </li>
         </ul>      
     </nav>
-    <main class="main">
-        <section id="left">
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3>Contributing to Open Source Part I: The Easy Way</h3>
-          <div class="view-info">
-            <div class="views">
-                <p>54,199 views • Feb 27, 2014</p>
+    <section class="section-items">
+            <div id="video">
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="icons">
-                <i class="fa fa-thumbs-up" aria-hidden="true"> 400</i>
-                <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
-                <i class="fa fa-share" aria-hidden="true">SHARE</i>
-                <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
-            </div>
-        </div> 
-        <article class="article">
-            <div>
-                <i class="fa fa-user fa-5x"  id="avatar" aria-hidden="true"></i>
-            </div>   
-        <div>
-            <img src="subscribe.jpg" class="subscribe" alt="subscribe button">
-        </div>
-
-            <div class="p">
-                                    Navigation bar
-                    It has an embedded image that represents a logo.
-                    The logo is aligned to the leftmost part of the navbar.
-                    It has an input tag that represents a search bar.
-                    The search bar is aligned to the middle of the navbar.
-                    It has a button tag that represents the search button.
-                    The search button is at the end (rightmost part) of the search bar.
-                    It has at least three embedded images on the rightmost part of the navbar that represent icons and/or an avatar.
-                 </br>
-
-                <p>Code Review Request: This is the form a team has to submit to get a TSE to review their project. Any member of the team can submit the request. A project without a review from a TSE doesn’t count towards progression in the program. If the TSE decides the project requires changes, the team has to do them and submit a new Code Review Request. Otherwise, the team has to submit a Project Completion Form
-
-                Project Completion Form: This is the form you fill out after a TSE says your project is complete and no further corrections need to be made. This is your chance to give us feedback about the project. Did you like it? How useful do you find it? These are personal opinions so they should be submitted individually.
-                
-            </p>
-            </div>
-        </article>
+            <div id="video-info">
+                <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                <div id="views">
+                    <p>54,199 views • Feb 27, 2014</p>
+                </div>
+                <div id="icons">
+                        <i class="fa fa-thumbs-up" aria-hidden="true"> 400</i>
+                        <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
+                        <i class="fa fa-share" aria-hidden="true">SHARE</i>
+                        <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
+                </div>
+            </div> 
+            <article>
+                <div class="header">
+                    <i class="fa fa-user fa-5x"  id="avatar" aria-hidden="true"></i>
+                    <div class="project" >
+                        <h4>Odin Project</h4>
+                        <p>927 subscribers</p>
+                    </div>   
+                    <div>
+                        <img src="/images/subscribe.jpg" id="sub-button" alt="subscribe button">
+                    </div>
+                </div>
+                <div id="description">
+                        <p>How do you contribute to open source?  In this video,
+                             I'll describe the easiest way to make a simple 
+                             contribution to an open source project --
+                            without using the command line, a text editor, 
+                            "forking a repo", or even touching Git outside of...
+                            <br>
+                            <span style="text-transform:uppercase">show more</span>
+                        </p>
+                </div>
+            </article>
         </section>
-        
-        <aside id="right">
-            <img src="thumbnail1.jpeg" alt="video thumbnail">
-            <h3>How To Create Thumbnails</h3>
-            <div>
-                <p>Mike Wills
-                </br>
-                1,199 views</p>
-            </div>
-        </aside>
-        <aside id="right">
-            <img src="thumbnail1.jpeg" alt="video thumbnail">
-            <h3>How To Create Thumbnails</h3>
-            <div>
-                <p>Mike Wills
-                </br>
-                1,199 views</p>
+        <aside id="aside-images">
+            <div class="grid">
+                <div>
+                    <img src="/images/thumbnail1.jpeg" alt="video thumbnail">
+                    <h3>How To Create Thumbnails</h3>
+                    <p>Mike Wills
+                    </br>
+                    1,199 views</p>
+                </div>
+                <div>
+                    <img src="images/thumbnail1.jpeg" alt="video thumbnail">
+                    <h3>How To Create Thumbnails</h3>
+                    <p>Mike Wills
+                    </br>
+                    1,199 views</p>
+                </div>
+                <div>
+                    <img src="images/thumbnail1.jpeg" alt="video thumbnail">
+                    <h3>How To Create Thumbnails</h3>
+                    <p>Mike Wills
+                    </br>
+                    1,199 views</p>
+                </div>
+                <div>
+                    <img src="images/thumbnail1.jpeg" alt="video thumbnail">
+                    <h3>How To Create Thumbnails</h3>
+                    <p>Mike Wills
+                    </br>
+                    1,199 views</p>
+                </div>
             </div>
         </aside>
         
     </main>
-    <div></div>
+   
     <footer></footer>
 </body>
 </html>

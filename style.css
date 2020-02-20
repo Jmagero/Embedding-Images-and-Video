@@ -1,17 +1,22 @@
+/* styling the body...*/
 body{
     background-color: whitesmoke;
     font-size: 16px;
     font-family: sans-serif;
 }
-.nav{
+/* styling the navbar...*/
+.navbar{
     background-color: white;
     width: auto;
-    height: 100px;
+    height: 50px;
     position:fixed;
     top:0px;
     left:0px;
     right:0px;
+    display: flex;
+    justify-content: center;
 }
+/* styling the navbar icons...*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,20 +26,38 @@ li{
       float: left;
       padding: 10px;
   }
+/* styling the company logo image...*/
 #logo{
     margin-left: 50px;
+    width:50px;
+    height: 30px;
 }
+/* styling the search bar...*/
 .search{
     margin-left: 300px;
-}
-button{
-    position: relative;
-    float: right;
+    width: 200px;
+    height: 30px;
+    padding: 6px;
+    margin-top: 0px;
+    font-size: 17px;
+    border: none;
+    display:flex;
     
 }
-#grid{
+/* styling the search button...*/
+button{
+    float: right;
+    margin-top: 0;
+    margin-right: 35px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+/* styling the grid icon...*/
+#grid-icon{
     margin-left: 400px;
 }
+/* styling the section ...*/
 section{
     background-color: whitesmoke;
     width: 60%;
@@ -42,60 +65,78 @@ section{
     margin-top: 35px;
     margin-left: 50px;
     padding-top: 10px;
+    display:flex;
+
 }
+/* styling the aside...*/
 aside{
-    background-color: gray;
+    background-color: whitesmoke;
     width:auto;
     height: 170px;
     margin-top: 35px;
     margin-left: 30px;
     padding-top: 60px;
+    display:flex;
 }
-#left {
+/* styling the section-items...*/
+.section-items {
     float: left;
     width: 50%;
+    flex-direction: column;
     }
-#right {
-    float:right;
-    width: 40%;
-    }
-.view-info{
-    width: auto;
-    height: 55px;
-    padding: 20px, 30px, 20px, 30px;
+/* styling video information...*/
+#video-info{
+    align-self: flex-start;
 }
-.views{
+/* styling the icons...*/
+#icons{
+    float:right;
+    align-self: flex-end;
+    margin-top: 10px;
+    padding: 10px, 15px, 10px, 15px;
+    margin-left: 90px;    
+}
+/* styling view...*/
+
+#views{
     position: relative;
     margin-right: 20px;
     float: left;
     margin-right: 0px;
 }
-.icons{
-    float: right;
-    position: relative;
-    margin-top: 15px;
-    padding: 10px, 15px, 10px, 15px;
-    margin-left: 0px;
+/* styling the avatar...*/
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
 }
 #avatar{
     position: relative;
-    width: 20%;
+    margin-right: 20px;
     float: left;
+    margin-right: 0px;
 }
-.subscribe{
-   width: 20%;
-   height: 100px;
-   float: right;
-   position: relative;
-   margin-bottom: 15px;
-   padding-bottom: 10x;
-   margin-left: 0px;
+/* styling the subsribe button...*/
+#sub-button{
+   width: 80px;
+   height: 40px;
+   display: flex;
+    margin: 0 0 0 auto;
 }
-i{
-    padding: 7px;
+/* styling the description...*/
+#description{
+    margin-right: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 50px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
-.p{
-    margin-top: 100px;
-    position: absolute;
-    width: 50%;
+/* styling the grid...*/
+.grid{
+    display: grid;
 }

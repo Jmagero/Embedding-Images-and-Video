@@ -4,6 +4,9 @@ body{
     font-size: 16px;
     font-family: sans-serif;
 }
+img{
+    width: 100px;
+}
 /* styling the navbar...*/
 .navbar{
     background-color: white;
@@ -27,21 +30,19 @@ li{
       padding: 10px;
   }
 /* styling the company logo image...*/
-#logo{
+/* #logo{
     margin-left: 50px;
     width:50px;
     height: 30px;
-}
+} */
 /* styling the search bar...*/
 .search{
     margin-left: 300px;
     width: 200px;
-    height: 30px;
-    padding: 6px;
-    margin-top: 0px;
     font-size: 17px;
     border: none;
     display:flex;
+    column-span: 70%;
     
 }
 /* styling the search button...*/

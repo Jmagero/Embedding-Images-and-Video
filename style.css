@@ -107,18 +107,18 @@ aside{
 /* styling the avatar...*/
 .header{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
 }
-.project{
+/* .project{
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-}
+} */
 #avatar{
     position: relative;
     margin-right: 20px;
     float: left;
-    margin-right: 0px;
+    display: flex;
 }
 /* styling the subsribe button...*/
 #sub-button{
@@ -130,7 +130,7 @@ aside{
 /* styling the description...*/
 #description{
     margin-right: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     justify-content: center;
     margin-left: 50px;
     font-size: 16px;
@@ -139,4 +139,45 @@ aside{
 /* styling the grid...*/
 .grid{
     display: grid;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+  }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px;
+}
+.aside-image{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.sub-button{
+    background-color: red;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+.custom-user{
+    border-radius: 50%;
+    font-size: 60px !important;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.project{
+    margin-right: 0px;
 }

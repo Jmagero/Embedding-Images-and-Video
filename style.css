@@ -93,8 +93,11 @@ aside{
     float:right;
     align-self: flex-end;
     margin-top: 10px;
-    padding: 10px, 15px, 10px, 15px;
-    margin-left: 90px;    
+    margin-left: 90px;  
+}
+.media-button{
+    background-color: whitesmoke;
+    padding: 5px 30px 10px 30px;
 }
 /* styling view...*/
 
@@ -109,11 +112,6 @@ aside{
     display: flex;
     justify-content: space-between;
 }
-/* .project{
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-} */
 #avatar{
     position: relative;
     margin-right: 20px;
@@ -137,32 +135,36 @@ aside{
     font-family: sans-serif;
 }
 /* styling the grid...*/
-.grid{
-    display: grid;
-}
 .footer {
     position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lightslategray;
-    color: white;
-    text-align: center;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightslategray;
+   color: white;
+   display: flex;
+   align-items: center;
   }
-.dropdown{
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content{
-    display: none;
-    position: absolute;
-    box-shadow: 0px 8px 16px 0px;
-}
-.aside-image{
+  .footer-logo{
+      display: flex;
+      flex-direction: row;
+      margin-left: 150px;
+  } 
+  .footer-info{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 180px;
+  }
+.aside-content{
     display: flex;
     margin-bottom: 15px;
     margin-top: 15px;
     margin-right: 25px;
+}
+.aside-title{
+    justify-content: space-between;
+    margin-left: 15px;
 }
 .sub-button{
     background-color: red;
@@ -181,3 +183,6 @@ aside{
 .project{
     margin-right: 0px;
 }
+/* hr{
+    border: black solid 1px;
+} */

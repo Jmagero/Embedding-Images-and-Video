@@ -196,5 +196,9 @@ aside{
     text-align: center;
     padding-left: 180px;
   }
-
+.copyright{
+    display: flex;
+    margin-top: 15px;
+    margin-right: 5px;
+}
 

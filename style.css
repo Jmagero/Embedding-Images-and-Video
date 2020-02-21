@@ -4,11 +4,12 @@ body{
     font-size: 16px;
     font-family: sans-serif;
 }
+/* styling the image...*/
 img{
     width: 100px;
 }
-/* styling the navbar...*/
-.navbar{
+/* styling the nav-bar...*/
+.nav-bar{
     background-color: white;
     width: auto;
     height: 50px;
@@ -17,35 +18,26 @@ img{
     left:0px;
     right:0px;
     display: flex;
-    justify-content: center;
+    justify-content: space;
 }
-/* styling the navbar icons...*/
+/* styling the nav-bar items...*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+/* styling the nav-bar icons...*/
 li{
       float: left;
       padding: 10px;
   }
-/* styling the company logo image...*/
-/* #logo{
+/* styling the youtube-logo image...*/
+.youtube-logo{
     margin-left: 50px;
-    width:50px;
-    height: 30px;
-} */
-/* styling the search bar...*/
-.search{
-    margin-left: 300px;
-    width: 200px;
-    font-size: 17px;
-    border: none;
-    display:flex;
-    column-span: 70%;
-    
+    background-color: white;
+    color:white;
 }
-/* styling the search button...*/
+/* styling the buttons...*/
 button{
     float: right;
     margin-top: 0;
@@ -54,9 +46,14 @@ button{
     border: none;
     cursor: pointer;
 }
+/* styling the nav-font-awesome icons...*/
+.nav-icons{
+    margin-right: 10px;
+
+}
 /* styling the grid icon...*/
 #grid-icon{
-    margin-left: 400px;
+    margin-left: 350px;
 }
 /* styling the section ...*/
 section{
@@ -67,7 +64,16 @@ section{
     margin-left: 50px;
     padding-top: 10px;
     display:flex;
-
+}
+/* styling the section-items...*/
+.section-items {
+    float: left;
+    width: 50%;
+    flex-direction: column;
+}
+/* styling the main video-info...*/
+#video-info{
+    align-self: flex-start;
 }
 /* styling the aside...*/
 aside{
@@ -79,54 +85,44 @@ aside{
     padding-top: 60px;
     display:flex;
 }
-/* styling the section-items...*/
-.section-items {
-    float: left;
-    width: 50%;
-    flex-direction: column;
-    }
-/* styling video information...*/
-#video-info{
-    align-self: flex-start;
-}
-/* styling the icons...*/
+/* styling the media-icons...*/
 #icons{
     float:right;
     align-self: flex-end;
     margin-top: 10px;
     margin-left: 90px;  
 }
+/* styling the media-button...*/
 .media-button{
     background-color: whitesmoke;
     padding: 5px 30px 10px 30px;
 }
-/* styling view...*/
-
+/* styling # views...*/
 #views{
     position: relative;
     margin-right: 20px;
     float: left;
     margin-right: 0px;
 }
-/* styling the avatar...*/
+/* styling the avator sub-class...*/
 .header{
     display: flex;
     justify-content: space-between;
 }
+/* styling the avatar...*/
 #avatar{
     position: relative;
     margin-right: 20px;
     float: left;
     display: flex;
 }
-/* styling the subsribe button...*/
-#sub-button{
-   width: 80px;
-   height: 40px;
-   display: flex;
-    margin: 0 0 0 auto;
+.custom-user{
+    border-radius: 50%;
+    font-size: 60px !important;
+    margin-right: 15px;
+    margin-top: 20px;
 }
-/* styling the description...*/
+/* styling the desrciption */
 #description{
     margin-right: 20px;
     margin-top: 30px;
@@ -135,13 +131,45 @@ aside{
     font-size: 16px;
     font-family: sans-serif;
 }
-.share-btn{
+/* styling the show more button */
+.show-btn{
     background-color: whitesmoke;
     color: grey;
     float: left;
    font-size: 14px;
 }
-/* styling the grid...*/
+/* styling the avator title */
+.avator-title{
+    margin-right: 0px;
+}
+/* styling the subcribe button...*/
+#sub-button{
+   width: 80px;
+   height: 40px;
+   display: flex;
+    margin: 0 0 0 auto;
+}
+.sub-button{
+    background-color: red;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+/* styling the aside content...*/
+.aside-content{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+/* styling the aside title...*/
+.aside-title{
+    justify-content: space-between;
+    margin-left: 15px;
+}
+/* styling footer...*/
 .footer {
     position: fixed;
    left: 0;
@@ -152,44 +180,18 @@ aside{
    display: flex;
    align-items: center;
   }
+  /* styling footer logo...*/
   .footer-logo{
       display: flex;
       flex-direction: row;
       margin-left: 150px;
   } 
+/* styling footer info...*/
   .footer-info{
     display: flex;
     flex-direction: row;
     text-align: center;
     padding-left: 180px;
   }
-.aside-content{
-    display: flex;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-right: 25px;
-}
-.aside-title{
-    justify-content: space-between;
-    margin-left: 15px;
-}
-.sub-button{
-    background-color: red;
-    color: #fff;
-    height: 30px;
-    border-radius: 2px;
-    margin-top: 30px;
-    margin-left: 0px;
-}
-.custom-user{
-    border-radius: 50%;
-    font-size: 60px !important;
-    margin-right: 15px;
-    margin-top: 20px;
-}
-.project{
-    margin-right: 0px;
-}
-/* hr{
-    border: black solid 1px;
-} */
+
+

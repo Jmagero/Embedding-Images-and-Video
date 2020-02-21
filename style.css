@@ -31,6 +31,9 @@ li{
       float: left;
       padding: 10px;
   }
+  .nav-icons{
+      background-color: white;
+  }
 /* styling the youtube-logo image...*/
 .youtube-logo{
     margin-left: 50px;

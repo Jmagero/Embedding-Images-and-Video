@@ -8,139 +8,133 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="nav-bar">
         <ul>
             <li>
-                <img id="logo" src="./images/logo.png">
+                <button class="youtube-logo">
+                    <img src="./images/youtube.png" alt="youtube logo">
+                </button>
             </li>
             <li>
-                <form class="search">
-                    <input type="text" placeholder="Search.." name="search">
-                    <button type="submit"><i class="fa fa-search"></i></button>
+                <form>                  
+                    <input type="text" placeholder="Search.." name="search" size="60">
+                    <button class="search-btn"type="submit"><i class="fa fa-search"></i></button>
                 </form> 
             </li>
             <li>
-                <i class="fa fa-th" id="grid-icon" aria-hidden="true"></i>
+                <i class="fa fa-th" id="grid-icon" aria-hidden="true" class="nav-icons"></i>
             </li>
             <li>
-                <i class="fa fa-bell" aria-hidden="true"></i>   
+                <i class="fa fa-bell" aria-hidden="true" class="nav-icons"></i>   
             </li>
             <li>
-                <i class="fa fa-bars" aria-hidden="true"></i>
+                <i class="fa fa-bars" aria-hidden="true" class="nav-icons"></i>
             </li>
         </ul>      
     </nav>
     <section class="section-items">
-            <div id="video">
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div id="video-info">
-                <h3>Contributing to Open Source Part I: The Easy Way</h3>
-                <div id="views">
-                    <p>54,199 views • Feb 27, 2014</p>
+        <div id="video">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div id="icons">
-                    <button class="media-button">
-                        <i class="fa fa-thumbs-up" aria-hidden="true"> 400</i>
-                        <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
-                        <i class="fa fa-share" aria-hidden="true">SHARE</i>
-                        <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
-                    </button>
-                </div>
-            </div> 
-            <hr>
-            <article>
-                <div class="header">
-                    <div id="avatar">
-                        <i class="fa fa-user fa-5x custom-user" aria-hidden="true"></i>
-                        <div class="project" >
-                            <h4>Odin Project</h4>
-                            <p>927 subscribers</p>
-                        </div>  
+                    <div id="video-info">
+                        <h3>Contributing to Open Source Part I: The Easy Way</h3>
+                        <div id="views">
+                            <p>54,199 views • Feb 27, 2014</p>
+                        </div>
+                        <div id="icons">
+                            <button class="media-button">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"> 400</i>
+                                <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
+                                <i class="fa fa-share" aria-hidden="true">SHARE</i>
+                                <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
+                            </button>
+                        </div>
                     </div> 
-                    <button class="sub-button">SUBSCRIBE</button>
                 </div>
-                <div id="description">
-                        <p>How do you contribute to open source?  In this video,
-                             I'll describe the easiest way to make a simple 
-                             contribution to an open source project --
-                            without using the command line, a text editor, 
-                            "forking a repo", or even touching Git outside of...
-                            <button class="sh-btn"><span style="text-transform:uppercase">show more</span></button> 
-                        </p>
-                </div>
-            </article>
-        </section>
-        <aside>
-            <div>
-                <div class="aside-content">
-                    <div>
-                        <iframe width="220" height="160" src="https://www.youtube.com/embed/aNJdOk7wv34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="aside-title">
-                        <h4>You Can Learn A Lot From This Video</h4>
-                        <p>James Odufu</p>
-                        
-                        <p>1,199 views</p>
+        <article>
+            <div class="header">
+                <div id="avatar">
+                    <i class="fa fa-user fa-5x custom-user" aria-hidden="true"></i>
+                    <div class="avator-title" >
+                        <h4>Odin Project</h4>
+                        <p>927 subscribers</p>
                     </div>  
+                </div> 
+                    <button class="sub-button">SUBSCRIBE</button>
+            </div>
+            <div id="description">
+                <p>How do you contribute to open source?  
+                    In this video,I'll describe the easiest way to make a simple 
+                    contribution to an open source project --
+                    without using the command line, a text editor, 
+                    "forking a repo", or even touching Git outside of...
+                    <button class="show-btn">
+                        <span style="text-transform:uppercase">show more</span>
+                    </button> 
+                </p>
+            </div>
+        </article>
+    </section>
+    <aside>
+        <div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/aNJdOk7wv34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="aside-content">
-                    <div>
-                        <iframe width="220" height="160" src="https://www.youtube.com/embed/-USAeFpVf_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="aside-title">
-                        <h4>We Learn By Practising!</h4>
-                        <p>Jocyline Magero</p>
-                        
-                        <p>2,854 views</p>
-                    </div>
-                    
+                <div class="aside-title">
+                    <h4>You Can Learn A Lot From This Video</h4>
+                    <p>James Odufu</p>
+                    <p>1,199 views</p>
+                </div>  
+            </div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/-USAeFpVf_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="aside-content">
-                    <div>
-                        <iframe width="220" height="160" src="https://www.youtube.com/embed/EOOsfsrXWfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="aside-title">
-                        <h3>Me, As A Microverse Graduate</h3>
-                        <p>MJamezjaz</p>
-                        
-                        <p>7,002 views</p>
-                    </div>
-                    
+                <div class="aside-title">
+                    <h4>We Learn By Practising!</h4>
+                    <p>Jocyline Magero</p>
+                    <p>2,854 views</p>
+                </div> 
+            </div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/EOOsfsrXWfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="aside-content">
-                    <div>
-                        <iframe width="220" height="160" src="https://www.youtube.com/embed/sgNoZD3nVSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="aside-title">
-                        <h3>Dos desarrolladores cuentan su experiencia a EL PAÍS</h3>
-                        <p>Ariel Camus</p>
-                        
-                        <p>1,002,000 views</p>
-                    </div>
-                    
+                <div class="aside-title">
+                    <h3>Me, As A Microverse Graduate</h3>
+                    <p>MJamezjaz</p>
+                    <p>7,002 views</p>
+                </div>     
+            </div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/sgNoZD3nVSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="aside-content">
-                    <div>
-                        <iframe width="220" height="160" src="https://www.youtube.com/embed/EOOsfsrXWfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="aside-title">
-                        <h3>Me, As A Microverse Graduate</h3>
-                        <p>MJamezjaz</p>
-                        
-                        <p>7,002 views</p>
-                    </div>
-                    
+                <div class="aside-title">
+                    <h3>Dos desarrolladores cuentan su experiencia a EL PAÍS</h3>
+                    <p>Ariel Camus</p>
+                    <p>1,002,000 views</p>
                 </div>
             </div>
-        </aside>
-        
-    </main>
-   
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/EOOsfsrXWfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="aside-title">
+                    <h3>Me, As A Microverse Graduate</h3>
+                    <p>MJamezjaz</p>
+                    <p>7,002 views</p>
+                 </div>
+            </div>
+        </div>
+    </aside>
     <footer>
         <div class="footer">
             <div class="footer-logo">
-                <button><i class="fa fa-youtube a-5x" aria-hidden="true"></i></button>
+                <button>
+                    <i class="fa fa-youtube a-5x" aria-hidden="true"></i>
+                </button>
             </div>
             <div class="footer-info">
                 <p>Copyright Creators Advertise Developers

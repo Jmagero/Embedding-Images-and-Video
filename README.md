@@ -2,10 +2,10 @@
 This is a basic html and css project designed to mimick the popular [youtube](https://youtube.com)
 
 ## Preview
-![image](https://user-images.githubusercontent.com/46686100/75110493-22789180-562f-11ea-9f6d-c6bb0c4e72f3.png)
+![image](https://user-images.githubusercontent.com/46686100/75113150-72fde800-564b-11ea-8d4a-05fe6d1949f9.png)
 
 ## Live Demo
-- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/4624e4b93110215df05f8b9b08882410146a8e92/index.html) hosted on [githack](https://raw.githack.com)
+- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/bf0c3a1515d22c0c9cf7fdbed763c42a022a6fad/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## Technologies

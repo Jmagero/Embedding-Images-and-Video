@@ -24,15 +24,15 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 MIT
 
 ## Authors
-Author 1
+# Author 1
 Github: @https://github.com/Jmagero
-Author 2
+# Author 2
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
 
 Feel free to check the https://github.com/Jmagero/Embedding-Images-and-Video/issues
 
-Show your support
+## Show your support
 Give a ⭐️ if you like this project!
 

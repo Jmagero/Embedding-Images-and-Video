@@ -1,4 +1,5 @@
 # Embedding-Images-and-Video
+This is a basic html and css project designed to mimick the popular [youtube](https://youtube.com)
 
 ## Preview
 ![image](https://user-images.githubusercontent.com/46686100/75110493-22789180-562f-11ea-9f6d-c6bb0c4e72f3.png)

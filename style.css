@@ -1,14 +1,16 @@
-/* styling the body...*/
+/* styling the body*/
 body{
     background-color: whitesmoke;
     font-size: 16px;
     font-family: sans-serif;
 }
-/* styling the image...*/
+
+/* styling the image*/
 img{
     width: 100px;
 }
-/* styling the nav-bar...*/
+
+/* styling the nav-bar*/
 .nav-bar{
     background-color: white;
     width: auto;
@@ -18,137 +20,164 @@ img{
     left:0;
     right:0;
     display: flex;
-    /* justify-content: space; */
+    z-index: 999;
 }
+.nav-icons > span{
+    margin-left: 10px;
+}
+
 .search-bar{
     margin-left: 180px;
 }
-/* styling the nav-bar items...*/
-ul {
+
+/* styling the nav-bar items*/
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
-/* styling the nav-bar icons...*/
+}
+
+/* styling the nav-bar icons*/
 li{
       float: left;
       padding: 10px;
   }
-  /* styling the nav-font-awesome icons...*/
+
+  /* styling the nav-font-awesome icons*/
   .nav-icons{
       background-color: white;
       margin-right: 10px;
+      margin-top: 8px;
   }
-/* styling the youtube-logo image...*/
+
+/* styling the youtube-logo image*/
 .youtube-logo{
     margin-left: 0;
     background-color: white;
     color:white;
+    height: 18px;
 }
-/* styling the menu button...*/
+
+/* styling the menu button*/
 .menu-button{
     background-color: white;
     margin-right: 0;
 }
-/* styling the menu button the logo...*/
+
+/* styling the menu button the logo*/
 .left-bar-items{
     float: left;
 }
-/* styling the buttons...*/
+
+/* styling the buttons*/
 button{
     float: right;
     margin-top: 0;
     margin-right: 35px;
     font-size: 17px;
     border: none;
-    cursor: pointer;
 }
-/* styling the grid icon...*/
+
+/* styling the grid icon*/
 #grid-icon{
     margin-left: 200px;
 }
-/* styling the section ...*/
-section{
-    background-color: whitesmoke;
-    width: 60%;
-    height: 400px;
-    margin-top: 35px;
-    margin-left: 50px;
-    padding-top: 10px;
-    display:flex;
-}
-/* styling the section-items...*/
+
+/* styling the section-items*/
 .section-items {
-    float: left;
-    width: 50%;
-    flex-direction: column;
-}
-/* styling the main video-info...*/
-#video-info{
-    align-self: flex-start;
-}
-/* styling the aside...*/
-aside{
+    width: 63%;
     background-color: whitesmoke;
-    width:auto;
-    height: 170px;
+    min-height: 400px;
     margin-top: 35px;
-    margin-left: 10px;
-    padding-top: 60px;
-    display:flex;
+    margin-right: 50px;
 }
-/* styling the aside content...*/
+main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.aside-items{
+    width: 35%;
+    margin-top: 15px;
+}
+
+.side-iframe{
+    width: 100%;
+    height: 160px;
+}
+.main-video{
+    width: 100%;
+    height: 400px;
+}
+.video{
+    width: 100%;
+}
+
+/* styling the aside content*/
 .aside-content{
     display: flex;
     margin-bottom: 15px;
     margin-top: 15px;
-    margin-right: 25px;
+    width: 100%;
 }
-/* styling the aside title...*/
+
+/* styling the aside title*/
 .aside-title{
-    justify-content: space-between;
     margin-left: 15px;
 }
-/* styling the media-icons...*/
+
+/* styling the media-icons*/
 #icons{
-    float:right;
-    align-self: flex-end;
     margin-top: 10px;
-    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
 }
-/* styling the media-button...*/
+
+/* styling the media-button*/
 .media-button{
     background-color: whitesmoke;
     color: grey;
     padding: 5px 30px 10px 30px;
     margin-left: 40px;
 }
-/* styling # views...*/
+
+#video-info{
+    display: block !important;
+}
+
+/* styling # views*/
 #views{
-    position: relative;
+    /* position: relative; */
     margin-right: 20px;
     float: left;
     margin-right: 0;
     color: grey;
 }
-/* styling the avator sub-class...*/
+
+/* styling the avator sub-class*/
 .header{
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
-/* styling the avatar...*/
+
+/* styling the avatar*/
 #avatar{
     position: relative;
     margin-right: 20px;
-    float: left;
+    /* float: left; */
     display: flex;
 }
+
 .custom-user{
     border-radius: 50%;
     font-size: 60px !important;
     margin-right: 15px;
     margin-top: 20px;
 }
+
 /* styling the desrciption */
 #description{
     margin-right: 20px;
@@ -158,6 +187,7 @@ aside{
     font-size: 16px;
     font-family: sans-serif;
 }
+
 /* styling the show more button */
 .show-btn{
     background-color: whitesmoke;
@@ -165,17 +195,13 @@ aside{
     float: left;
    font-size: 14px;
 }
+
 /* styling the avator title */
 .avator-title{
     margin-right: 0;
 }
-/* styling the subcribe button...*/
-#sub-button{
-   width: 80px;
-   height: 40px;
-   display: flex;
-    margin: 0 0 0 auto;
-}
+
+/* styling the subcribe button*/
 .sub-button{
     background-color: red;
     color: #fff;
@@ -184,33 +210,7 @@ aside{
     margin-top: 30px;
     margin-left: 0;
 }
-/* styling footer...*/
-.footer {
-    position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: lightslategray;
-   color: white;
-   display: flex;
-   align-items: center;
-  }
-  /* styling footer logo...*/
-  .footer-logo{
-      display: flex;
-      flex-direction: row;
-      margin-left: 150px;
-  } 
-/* styling footer info...*/
-  .footer-info{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    padding-left: 180px;
-  }
-.copyright{
-    display: flex;
-    margin-top: 15px;
-    margin-right: 5px;
-}
 
+.sub-button:hover{
+    cursor: pointer !important;
+}

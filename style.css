@@ -14,11 +14,14 @@ img{
     width: auto;
     height: 50px;
     position:fixed;
-    top:0px;
-    left:0px;
-    right:0px;
+    top:0;
+    left:0;
+    right:0;
     display: flex;
-    justify-content: space;
+    /* justify-content: space; */
+}
+.search-bar{
+    margin-left: 180px;
 }
 /* styling the nav-bar items...*/
 ul {
@@ -31,14 +34,25 @@ li{
       float: left;
       padding: 10px;
   }
+  /* styling the nav-font-awesome icons...*/
   .nav-icons{
       background-color: white;
+      margin-right: 10px;
   }
 /* styling the youtube-logo image...*/
 .youtube-logo{
-    margin-left: 50px;
+    margin-left: 0;
     background-color: white;
     color:white;
+}
+/* styling the menu button...*/
+.menu-button{
+    background-color: white;
+    margin-right: 0;
+}
+/* styling the menu button the logo...*/
+.left-bar-items{
+    float: left;
 }
 /* styling the buttons...*/
 button{
@@ -49,14 +63,9 @@ button{
     border: none;
     cursor: pointer;
 }
-/* styling the nav-font-awesome icons...*/
-.nav-icons{
-    margin-right: 10px;
-
-}
 /* styling the grid icon...*/
 #grid-icon{
-    margin-left: 350px;
+    margin-left: 200px;
 }
 /* styling the section ...*/
 section{
@@ -84,28 +93,43 @@ aside{
     width:auto;
     height: 170px;
     margin-top: 35px;
-    margin-left: 30px;
+    margin-left: 10px;
     padding-top: 60px;
     display:flex;
+}
+/* styling the aside content...*/
+.aside-content{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+/* styling the aside title...*/
+.aside-title{
+    justify-content: space-between;
+    margin-left: 15px;
 }
 /* styling the media-icons...*/
 #icons{
     float:right;
     align-self: flex-end;
     margin-top: 10px;
-    margin-left: 90px;  
+    margin-left: 90px;
 }
 /* styling the media-button...*/
 .media-button{
     background-color: whitesmoke;
+    color: grey;
     padding: 5px 30px 10px 30px;
+    margin-left: 40px;
 }
 /* styling # views...*/
 #views{
     position: relative;
     margin-right: 20px;
     float: left;
-    margin-right: 0px;
+    margin-right: 0;
+    color: grey;
 }
 /* styling the avator sub-class...*/
 .header{
@@ -143,7 +167,7 @@ aside{
 }
 /* styling the avator title */
 .avator-title{
-    margin-right: 0px;
+    margin-right: 0;
 }
 /* styling the subcribe button...*/
 #sub-button{
@@ -158,19 +182,7 @@ aside{
     height: 30px;
     border-radius: 2px;
     margin-top: 30px;
-    margin-left: 0px;
-}
-/* styling the aside content...*/
-.aside-content{
-    display: flex;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    margin-right: 25px;
-}
-/* styling the aside title...*/
-.aside-title{
-    justify-content: space-between;
-    margin-left: 15px;
+    margin-left: 0;
 }
 /* styling footer...*/
 .footer {

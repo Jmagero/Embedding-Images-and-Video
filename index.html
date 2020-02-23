@@ -10,13 +10,20 @@
 <body>
     <nav class="nav-bar">
         <ul>
-            <li>
+               <div class="left-bar-items">
                 <button class="youtube-logo">
-                    <img src="./images/youtube.png" alt="youtube logo">
+                    <li>
+                        <img src="./images/youtube.png" alt="youtube logo">
+                    </li>
                 </button>
-            </li>
+                <button class="menu-button">
+                    <li>
+                        <i class="fa fa-bars" aria-hidden="true" class="nav-icons"></i>
+                    </li>
+                </button>
+               </div>
             <li>
-                <form>                  
+                <form class="search-bar">                
                     <input type="text" placeholder="Search.." name="search" size="60">
                     <button class="search-btn"type="submit"><i class="fa fa-search"></i></button>
                 </form> 
@@ -29,14 +36,17 @@
                     <i class="fa fa-bell" aria-hidden="true" class="nav-icons"></i>   
                 </li>
                 <li>
-                    <i class="fa fa-bars" aria-hidden="true" class="nav-icons"></i>
+                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                 </li>
             </button>
         </ul>      
     </nav>
     <section class="section-items">
-        <div id="video">
-            <iframe width="600" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video">
+            <iframe width="630" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                     <div id="video-info">
                         <h3>Contributing to Open Source Part I: The Easy Way</h3>
@@ -49,10 +59,10 @@
                                 <i class="fa fa-thumbs-down" aria-hidden="true"> 5</i>
                                 <i class="fa fa-share" aria-hidden="true">SHARE</i>
                                 <i class="fa fa-floppy-o" aria-hidden="true">SAVE</i>
+                                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                             </button>
                         </div>
-                    </div> 
-                </div>
+                    </div>
         <article>
             <div class="header">
                 <div id="avatar">
@@ -78,7 +88,7 @@
         </article>
     </section>
     <aside>
-        <div>
+        <div class="aside-main">
             <div class="aside-content">
                 <div>
                     <iframe width="220" height="160" src="https://www.youtube.com/embed/aNJdOk7wv34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -129,9 +139,29 @@
                     <p>7,002 views</p>
                  </div>
             </div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/-USAeFpVf_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="aside-title">
+                    <h4>We Learn By Practising!</h4>
+                    <p>Jocyline Magero</p>
+                    <p>2,854 views</p>
+                </div> 
+            </div>
+            <div class="aside-content">
+                <div>
+                    <iframe width="220" height="160" src="https://www.youtube.com/embed/aNJdOk7wv34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="aside-title">
+                    <h4>A Life Changing Video</h4>
+                    <p>James Chigozie Odufu</p>
+                    <p>1,199 views</p>
+                </div>  
+            </div>
         </div>
     </aside>
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <div class="footer-logo">
                 <button>
@@ -150,6 +180,6 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>

@@ -5,7 +5,7 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 ![image](https://user-images.githubusercontent.com/46686100/75113150-72fde800-564b-11ea-8d4a-05fe6d1949f9.png)
 
 ## Live Demo
-- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/2f50648a21f525c79536efefc2877094c3c3967e/index.htmlggit) hosted on [githack](https://raw.githack.com)
+- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/2f50648a21f525c79536efefc2877094c3c3967e/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## Technologies

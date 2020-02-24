@@ -1,0 +1,244 @@
+/* styling the body*/
+body{
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+/* styling the image*/
+img{
+    width: 80px;
+}
+
+/* styling the nav-bar*/
+.nav-bar{
+    background-color: white;
+    width: auto;
+    height: 50px;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    z-index: 999;
+}
+/* styling the nav-icons*/
+.nav-icons > span{
+    margin-left: 10px;
+}
+/* styling the search-bar*/
+.search-bar{
+    margin-left: 180px;
+    padding-top: 10px;
+}
+
+/* styling the nav-bar items*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* styling the nav-bar icons*/
+li{
+      float: left;
+      padding: 10px;
+  }
+
+  /* styling the nav-font-awesome icons*/
+  .nav-icons{
+      background-color: white;
+      margin-right: 10px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: none;
+  }
+
+/* styling the youtube-logo image*/
+.youtube-logo{
+    margin-left: 0;
+    background-color: white;
+    color:white;
+    height: 10px;
+    padding-top: 10px;
+}
+
+/* styling the menu button*/
+.menu-button{
+    background-color: white;
+    margin-right: 0;
+}
+
+/* styling the menu button the logo*/
+.left-bar-items{
+    float: left;
+}
+
+/* styling the buttons*/
+button{
+    float: right;
+    margin-top: 0;
+    margin-right: 35px;
+    font-size: 17px;
+    border: none;
+}
+
+/* styling the grid icon*/
+#grid-icon{
+    margin-left: 200px;
+}
+
+/* styling the section-items*/
+.section-items {
+    width: 63%;
+    background-color: whitesmoke;
+    min-height: 400px;
+    margin-top: 35px;
+    margin-right: 50px;
+    margin-left: 70px;
+}
+/* styling the main tag*/
+main{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+/* styling the aside ittems*/
+.aside-items{
+    width: 35%;
+    margin-top: 20px;
+}
+
+/* styling the aside video*/
+.side-iframe{
+    width: 100%;
+    height: 160px;
+}
+/* styling the section video*/
+.main-video{
+    width: 100%;
+    height: 400px;
+}
+
+/* styling the aside content*/
+.aside-content{
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* styling the aside title*/
+.aside-title{
+    margin-left: 15px;
+}
+
+/* styling the primary-info about the video*/
+.primary-info{
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* styling the media-button */
+.media-button{
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    display: flex;
+}
+.media-button:hover{
+    cursor: pointer !important;
+}
+/* styling the media-icons */
+.media-icons{
+    border-radius: 50%;
+    margin: 0 8px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.video-info{
+    display: block !important;
+    border-bottom: 1px solid #ccc;
+}
+
+/* styling # views*/
+#views{
+    margin-right: 20px;
+    float: left;
+    margin-right: 0;
+    color: grey;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* styling the avatar*/
+#avatar{
+    position: relative;
+    margin-right: 20px;
+    /* float: left; */
+    display: flex;
+}
+
+.custom-user{
+    border-radius: 50%;
+    font-size: 60px !important;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+/* styling the desrciption */
+.description{
+    font-size: 0.9rem;
+    font-weight: 5;
+    line-height: 1.5rem;
+    margin-left: 55px;
+    text-align: justify;
+}
+
+/* styling the show more button */
+.show-button{
+   color: black;
+    display: inline-block;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 7;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    margin-left: 0;
+    text-align: center;
+    font-family: inherit;
+    padding: 0;
+    text-align: left;
+}
+.show-button:hover{
+    cursor: pointer !important;
+}
+
+/* styling the avator title */
+.avator-title{
+    margin-right: 0;
+}
+
+/* styling the subcribe button*/
+.sub-button{
+    background-color: red;
+    color: #fff;
+    height: 30px;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.sub-button:hover{
+    cursor: pointer !important;
+}

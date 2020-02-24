@@ -219,7 +219,6 @@ main{
     font-family: inherit;
     padding: 0;
     text-align: left;
-    float: left !important;
 }
 .show-button:hover{
     cursor: pointer !important;

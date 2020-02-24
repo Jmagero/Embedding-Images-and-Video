@@ -4,10 +4,9 @@ body{
     font-size: 16px;
     font-family: sans-serif;
 }
-
 /* styling the image*/
 img{
-    width: 100px;
+    width: 80px;
 }
 
 /* styling the nav-bar*/
@@ -22,12 +21,14 @@ img{
     display: flex;
     z-index: 999;
 }
+/* styling the nav-icons*/
 .nav-icons > span{
     margin-left: 10px;
 }
-
+/* styling the search-bar*/
 .search-bar{
     margin-left: 180px;
+    padding-top: 10px;
 }
 
 /* styling the nav-bar items*/
@@ -47,7 +48,10 @@ li{
   .nav-icons{
       background-color: white;
       margin-right: 10px;
-      margin-top: 8px;
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      box-sizing: none;
   }
 
 /* styling the youtube-logo image*/
@@ -55,7 +59,8 @@ li{
     margin-left: 0;
     background-color: white;
     color:white;
-    height: 18px;
+    height: 10px;
+    padding-top: 10px;
 }
 
 /* styling the menu button*/
@@ -90,29 +95,32 @@ button{
     min-height: 400px;
     margin-top: 35px;
     margin-right: 50px;
+    margin-left: 70px;
 }
+/* styling the main tag*/
 main{
     width: 100%;
     display: flex;
     position: relative;
     padding-bottom: 10px;
+    margin-top: 40px;
 }
 
+/* styling the aside ittems*/
 .aside-items{
     width: 35%;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
+/* styling the aside video*/
 .side-iframe{
     width: 100%;
     height: 160px;
 }
+/* styling the section video*/
 .main-video{
     width: 100%;
     height: 400px;
-}
-.video{
-    width: 100%;
 }
 
 /* styling the aside content*/
@@ -128,39 +136,49 @@ main{
     margin-left: 15px;
 }
 
-/* styling the media-icons*/
-#icons{
-    margin-top: 10px;
+/* styling the primary-info about the video*/
+.primary-info{
+    padding: 0 16px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
-/* styling the media-button*/
+/* styling the media-button */
 .media-button{
-    background-color: whitesmoke;
-    color: grey;
-    padding: 5px 30px 10px 30px;
-    margin-left: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    display: flex;
+}
+.media-button:hover{
+    cursor: pointer !important;
+}
+/* styling the media-icons */
+.media-icons{
+    border-radius: 50%;
+    margin: 0 8px;
+    display: inline-flex;
+    align-items: center;
 }
 
-#video-info{
+.video-info{
     display: block !important;
+    border-bottom: 1px solid #ccc;
 }
 
 /* styling # views*/
 #views{
-    /* position: relative; */
     margin-right: 20px;
     float: left;
     margin-right: 0;
     color: grey;
 }
-
-/* styling the avator sub-class*/
 .header{
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 /* styling the avatar*/
@@ -179,21 +197,32 @@ main{
 }
 
 /* styling the desrciption */
-#description{
-    margin-right: 20px;
-    margin-top: 30px;
-    justify-content: center;
-    margin-left: 50px;
-    font-size: 16px;
-    font-family: sans-serif;
+.description{
+    font-size: 0.9rem;
+    font-weight: 5;
+    line-height: 1.5rem;
+    margin-left: 55px;
+    text-align: justify;
 }
 
 /* styling the show more button */
-.show-btn{
-    background-color: whitesmoke;
-    color: grey;
-    float: left;
-   font-size: 14px;
+.show-button{
+   color: black;
+    display: inline-block;
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 7;
+    letter-spacing: 0.007px;
+    text-transform: uppercase;
+    margin-left: 0;
+    text-align: center;
+    font-family: inherit;
+    padding: 0;
+    text-align: left;
+    float: left !important;
+}
+.show-button:hover{
+    cursor: pointer !important;
 }
 
 /* styling the avator title */

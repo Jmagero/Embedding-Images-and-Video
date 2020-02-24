@@ -27,7 +27,7 @@ MIT
 # Author 1
 Github: @https://github.com/Jmagero
 # Author 2
-Github: [https//github.com/Jamezjaz](https//github.com/Jamezjaz)
+Github: [Jamezjaz](https://github.com/Jamezjaz)
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!

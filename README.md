@@ -5,7 +5,7 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 ![image](https://user-images.githubusercontent.com/52098394/75131721-64640f00-56e5-11ea-8444-a70da8c10cea.png)
 
 ## Live Demo
-- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/bf0c3a1515d22c0c9cf7fdbed763c42a022a6fad/index.html) hosted on [githack](https://raw.githack.com)
+- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/2f50648a21f525c79536efefc2877094c3c3967e/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## Technologies
@@ -22,4 +22,18 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 
 ## Licence
 MIT
+
+## Authors
+# Author 1
+Github: @https://github.com/Jmagero
+# Author 2
+Github: [Jamezjaz](https://github.com/Jamezjaz)
+
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the https://github.com/Jmagero/Embedding-Images-and-Video/issues
+
+## Show your support
+Give a ⭐️ if you like this project!
 

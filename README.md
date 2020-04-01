@@ -5,7 +5,7 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 ![image](https://user-images.githubusercontent.com/52098394/75131721-64640f00-56e5-11ea-8444-a70da8c10cea.png)
 
 ## Live Demo
-- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/d8b8825b74bf51d6f55401584c12c178432e47f7/index.html) hosted on [githack](https://raw.githack.com)
+- [Live Demo](https://rawcdn.githack.com/Jmagero/Embedding-Images-and-Video/0f677821c2767364ca914843917afa16a14b7276/index.html) hosted on [githack](https://raw.githack.com)
 
 
 ## Technologies
@@ -16,7 +16,7 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 - https://fontawesome.com/icons
 
 ## Steps For Installation
-- After cloning this repo, git clone [repo](git@github.com:Jmagero/Embedding-Images-and-Video.git), cd into Embedding-Images-and-Video
+- After cloning this repo, git clone [repo](git@github.com:Jmagero/Embedding-Images-and-Video.git), cd into    Embedding-Images-and-Video
 - Open the index.html file in your favourite browser, you're there!!!
 
 
@@ -24,10 +24,14 @@ This is a basic html and css project designed to mimick the popular [youtube](ht
 MIT
 
 ## Authors
+👤 Odufu James C.
 # Author 1
 Github: [jmagero](https://github.com/Jmagero)
 # Author 2
 Github: [Jamezjaz](https://github.com/Jamezjaz)
+Twitter: [@twitterhandle](https://twitter.com/jamezjaz90)
+Linkedin: [@linkedin](https://linkedin.com/in/james-odufu-ba2a4a125)
+Email: jamezjaz@gmail.com
 
 ## 🤝 Contributing
 Contributions, issues and feature requests are welcome!
